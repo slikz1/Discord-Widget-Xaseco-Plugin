@@ -2,7 +2,7 @@
 
 ![Discord Widget Preview](https://my.cloudzor.ch/discordw.png)
 
-This XASECO plugin displays live information about your Discord server directly in-game, giving players a real-time overview of your community and a quick way to join.
+This XASECO plugin Displays a Discord Widget on your TrackmaniaServer
 
 ## ✨ Features
 
