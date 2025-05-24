@@ -6,8 +6,7 @@ This XASECO plugin displays live information about your Discord server directly 
 
 ## ✨ Features
 
-- Displays your Discord server name and online user count
-- Customizable widget layout and styling
+- Displays your Discord Widget on your TrackmaniaServer
 - Simple setup via plugin configuration
 - No external dependencies
 
@@ -23,20 +22,15 @@ XASECO/plugins/discord_widget_plugin.php/
 2. **Enable the Plugin**  
 Add the plugin to your `plugins.xml`:
 ```xml
-<plugin>discord_widget_plugin/plugin.discordwidget.php</plugin>
-Configure the Server ID
-Open plugin.discordwidget.php and enter your Discord server's widget ID in the appropriate section.
 
-Enable the Widget on Discord
-Go to your Discord server settings > Widget > Enable Server Widget and copy the Server ID.
+<plugin>discord_widget_plugin/plugin.discordwidget.php</plugin>
+Open plugin.discordwidget.php and enter your Discord Add your Discord Link
 
 Restart XASECO
 Restart your XASECO instance for changes to take effect.
 
 🛠 Requirements
 TrackMania server with XASECO
-
-Discord server with the Server Widget enabled
 
 💬 Support
 Encounter issues or have suggestions? Open an issue or contact us via Discord.
