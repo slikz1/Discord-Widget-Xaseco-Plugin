@@ -1,69 +1,45 @@
-# Discord Widget Plugin
+# Discord Widget Plugin for XASECO
 
-A lightweight and customizable plugin to embed a live Discord server widget directly into your website. It shows real-time server activity and provides a quick invite link for users to join your Discord server.
+![Discord Widget Preview](https://my.cloudzor.ch/discordw.png)
+
+This XASECO plugin displays live information about your Discord server directly in-game, giving players a real-time overview of your community and a quick way to join.
 
 ## ✨ Features
 
-- Displays Discord server name, online user count, and status
-- Embeddable via HTML `<div>` or `<iframe>`
-- Fully customizable design via CSS
-- Supports multiple servers by ID
+- Displays your Discord server name and online user count
+- Customizable widget layout and styling
+- Simple setup via plugin configuration
+- No external dependencies
 
-## 🚀 Installation
+## 📦 Installation
 
-1. **Download or Clone**
-   ```bash
-   git clone https://github.com/your-username/discord-widget-plugin.git
-Extract the ZIP
-If you downloaded the .zip file, extract it into your project or web directory.
+1. **Download the Plugin**  
+   Extract the contents of this ZIP into your XASECO plugins directory:
 
-Include the Plugin in Your HTML
+XASECO/plugins/discord_widget_plugin.php/
 
-html
-Kopieren
-Bearbeiten
-<link rel="stylesheet" href="discord-widget.css">
-<script src="discord-widget.js"></script>
-<div id="discord-widget" data-server-id="YOUR_SERVER_ID"></div>
-Customize (Optional)
-Modify discord-widget.css to fit your site's design.
 
-🧪 Example
-Here’s a simple example of how to use the plugin on your page:
 
-html
-Kopieren
-Bearbeiten
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="discord-widget.css">
-</head>
-<body>
-  <div id="discord-widget" data-server-id="123456789012345678"></div>
-  <script src="discord-widget.js"></script>
-</body>
-</html>
-🔧 Requirements
-Discord server with widget enabled
+2. **Enable the Plugin**  
+Add the plugin to your `plugins.xml`:
+```xml
+<plugin>discord_widget_plugin/plugin.discordwidget.php</plugin>
+Configure the Server ID
+Open plugin.discordwidget.php and enter your Discord server's widget ID in the appropriate section.
 
-Web server (Apache, Nginx, or local test server)
+Enable the Widget on Discord
+Go to your Discord server settings > Widget > Enable Server Widget and copy the Server ID.
+
+Restart XASECO
+Restart your XASECO instance for changes to take effect.
+
+🛠 Requirements
+TrackMania server with XASECO
+
+Discord server with the Server Widget enabled
 
 💬 Support
-If you encounter issues or have suggestions, feel free to open an issue or contact us via Discord.
+Encounter issues or have suggestions? Open an issue or contact us via Discord.
 
 📄 License
 This project is licensed under the MIT License.
-
-yaml
-Kopieren
-Bearbeiten
-
----
-
-Let me know if you want me to:
-- Generate this `README.md` file and include it in your project
-- Help push everything to a GitHub repo
-- Add badges (like version, license, or contributors)
-
-I'm happy to walk you through publishing this.
