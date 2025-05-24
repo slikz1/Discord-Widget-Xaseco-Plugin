@@ -24,7 +24,7 @@ Add the plugin to your `plugins.xml`:
 ```xml
 
 <plugin>discord_widget_plugin/plugin.discordwidget.php</plugin>
-Open plugin.discordwidget.php and enter your Discord Add your Discord Link
+Open plugin.discordwidget.php and enter your Discord Invite Link
 
 Restart XASECO
 Restart your XASECO instance for changes to take effect.
